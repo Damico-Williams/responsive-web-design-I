@@ -74,9 +74,9 @@ h1, h2, h3, h4, h5 {
 	left:50px; */
 }
 
- nav {
+ header {
  	display: flex;
- 	align-items: center;
+	align-items:center;
  }
  
  header nav a{
@@ -113,11 +113,6 @@ h1, h2, h3, h4, h5 {
 	font-size: 20px;
 	} 
 
-/*#logo {
-	position:relative;
-	left:800px;
-	bottom:50px;
-} */
 
 .circle {
 	margin-top: 50px;
@@ -185,9 +180,67 @@ address {
 		justify-content: center;
 	}
 
+	.top-section {
+		display:flex;
+		justify-content: center;
+	}
+
 	.top-section .top-paragraph {
 		width:380px;
 		margin-top:20px;
 		margin-bottom: 25px;
 	} 
+	
+	header {
+	    display: flex;
+		justify-content:center;
+		flex-direction: column-reverse;
+	}
+
+	header nav a{
+		padding:0px 40px;
+		background: white;
+		margin:0px;
+		color:gray;
+		text-decoration: none;
+	}
+
+	#logo {
+		margin: 30px;
+	}
+
+	.sub-head {
+		display:flex;
+		justify-content: center;
+	}
+
+	.sign {
+		margin-top:100px;
+        padding:0px 0px 0px 0px;
+	}
+
+    .bottom-section {
+		display:flex;
+		justify-content:center;
+	}
+
+	img {
+		max-height:100%;
+		max-width:100%;
+	}
+}
+
+@media (max-width:500px) {
+	.container {
+		margin:0 auto;
+		width:500px;
+	}
+
+    header {
+	    display: flex;
+		flex-direction:column;
+		flex-wrap:wrap;
+
+
+
 }
